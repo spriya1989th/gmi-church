@@ -30,7 +30,7 @@
   var CONNECT = [
     ['salvation.html', 'Road to salvation', 'Begin a life with Jesus'],
     ['ministries.html', 'Ministries', 'Find your place'],
-    ['counselling.html', 'Counselling', 'Book a session with Rev. Jayanthi'],
+    ['counselling.html', 'Counselling', 'Book a session with Rev. Jeyanthy'],
     ['give.html', 'Giving', 'Tithes and offerings'],
     ['worship.html', 'Worship resources', 'For the worship team'],
     ['login.html', 'Member login', 'The GMI member app'],
