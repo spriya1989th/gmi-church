@@ -63,6 +63,9 @@
     { id: 'history', k: ['history', 'story', 'founded', 'started', 'about', 'gmi', 'grace ministries', 'how old', 'since', 'our story'],
       a: function () { return 'In 1990, during the invasion of Kuwait, Pastor Robert Nesan and his family sheltered in Germany and received God’s call to return and pioneer the first Sri Lankan church in Kuwait. They returned in 1991, a house church began, and in January 1992 the first congregation met under the National Evangelical Church of Kuwait. Today it is Grace Ministries International. <a href="pastors.html">Read more</a>.'; },
       q: ['What do you believe?', 'Service times'] },
+    { id: 'promise', k: ['promise', 'promise verse', 'promise word', 'year verse', "year's verse", 'verse for the year', 'jeremiah', '2026 promise', 'theme verse'],
+      a: function () { return '<b>Our promise for 2026</b> is Jeremiah 1:18:<br><br>&ldquo;For, behold, I have made thee this day a defenced city, and an iron pillar, and brasen walls against the whole land, against the kings of Judah, against the princes thereof, against the priests thereof, and against the people of the land.&rdquo; (KJV)'; },
+      q: ['Service times', 'Prayer request'] },
     { id: 'monthly', k: ['communion', 'holy communion', 'lords supper', "lord's supper", 'sacrament', 'healing service', 'healing', 'heal', 'miracle', 'monthly', 'first friday', 'third friday', '3rd friday', '1st friday'],
       a: function () {
         var now = new Date(Date.now() + 3 * 3600e3), M = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
