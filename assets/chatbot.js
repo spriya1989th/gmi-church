@@ -14,7 +14,7 @@
     { day: 5, time: '08:30', label: '8:30 AM', place: 'Fahaheel' },
     { day: 5, time: '12:30', label: '12:30 PM', place: 'The Fellowship Hall, NECK' },
     { day: 5, time: '15:30', label: '3:30 PM', place: 'The North Tent, NECK' },
-    { day: 5, time: '17:15', label: '5:15 PM', place: 'Hall of Faith, NECK' },
+    { day: 5, time: '17:15', label: '5:15 PM', place: 'English service, Hall of Faith, NECK' },
     { day: 1, time: '18:00', label: '6:00 PM', place: 'KTMCC, NECK' }
   ];
   var DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -37,13 +37,13 @@
       a: function () { return 'Hello and welcome! I can help with service times, locations, prayer requests and more. What would you like to know?'; },
       q: ['Service times', 'Where are you?', 'I’m new'] },
     { id: 'times', k: ['time', 'times', 'service', 'services', 'when', 'friday', 'monday', 'schedule', 'timing', 'mass', 'worship service', 'next'],
-      a: function () { return nextService() + '<br><br><b>Friday</b><br>7:00 AM · Bethel<br>8:30 AM · Fahaheel<br>12:30 PM · The Fellowship Hall, NECK<br>3:30 PM · The North Tent, NECK<br>4:00–5:15 PM · Sunday School (kids’ Bible class), NECK<br>5:15 PM · Hall of Faith, NECK<br><br><b>Monday</b><br>6:00 PM · KTMCC, NECK<br><br><b>Monthly</b><br>Holy Communion · 1st &amp; 3rd Friday, 3:30 PM, NECK<br>Holy Communion · 2nd &amp; 4th Friday, at Bethel, Fahaheel and 12:30 PM NECK<br>Healing service · 3rd Friday, 3:30 PM, NECK<br><br>All times are Kuwait time.'; },
+      a: function () { return nextService() + '<br><br><b>Friday</b><br>7:00 AM · Bethel<br>8:30 AM · Fahaheel<br>12:30 PM · The Fellowship Hall, NECK<br>3:30 PM · The North Tent, NECK<br>4:00–5:15 PM · Sunday School (kids’ Bible class), NECK<br>5:15 PM · English service, Hall of Faith, NECK<br><br><b>Monday</b><br>6:00 PM · KTMCC, NECK<br><br><b>Monthly</b><br>Holy Communion · 1st &amp; 3rd Friday, 3:30 PM, NECK<br>Holy Communion · 2nd &amp; 4th Friday, at Bethel, Fahaheel and 12:30 PM NECK<br>Healing service · 3rd Friday, 3:30 PM, NECK<br><br>All times are Kuwait time.'; },
       q: ['Where are you?', 'Which language?', 'I’m new'] },
     { id: 'where', k: ['where', 'location', 'locations', 'address', 'direction', 'directions', 'map', 'neck', 'kuwait city', 'fahaheel', 'bethel', 'parking', 'how to reach', 'reach'],
       a: function () { return 'We meet in three places:<br><br><b>Kuwait City</b>: the National Evangelical Church in Kuwait (NECK) compound. <a href="https://www.google.com/maps/search/?api=1&query=National+Evangelical+Church+in+Kuwait" target="_blank" rel="noopener">Open in Google Maps</a><br><b>Bethel</b>: Friday 7:00 AM. Message us for the address.<br><b>Fahaheel</b>: Friday 8:30 AM. Message us for the address.<br><br>See <a href="locations.html">all locations</a>.'; },
       q: ['Service times', 'Ask for directions'] },
     { id: 'lang', k: ['language', 'languages', 'tamil', 'sinhala', 'english', 'translate', 'in tamil', 'in sinhala', 'in english', 'tamil service', 'sinhala service', 'தமிழ்', 'සිංහල'],
-      a: function () { return 'GMI is a church where Tamils and Sinhalese worship together in harmony, and people of every nationality are welcome. Our services are in <b>Tamil, Sinhala and English</b>. Message us on WhatsApp and we’ll tell you which service suits you best.'; },
+      a: function () { return 'GMI is a church where Tamils and Sinhalese worship together in harmony, and people of every nationality are welcome. Our services are in <b>Tamil, Sinhala and English</b>. The <b>English service</b> is every Friday at 5:15 PM in the Hall of Faith at the NECK compound. Message us on WhatsApp and we’ll tell you which service suits you best.'; },
       q: ['Service times', 'Talk to a person'] },
     { id: 'new', k: ['new', 'first time', 'visit', 'visiting', 'visitor', 'expect', 'dress', 'come', 'bring', 'bring my', 'bring my children', 'bring my family', 'bring friends', 'can i bring', 'family', 'friends', 'relatives', 'nationality', 'foreigner', 'anyone', 'welcome'],
       a: function () { return 'We’d love to welcome you! Bring your family, friends, relatives and children: people of every nationality are welcome at every service. Friday is our main day of worship. ' + nextService() + '<br><br>Read <a href="visit.html">Plan your first visit</a> for what to expect, or tell us you’re coming and we’ll look out for you.'; },
