@@ -10,8 +10,8 @@
 
   // ---- Weekly services (Kuwait time) ----
   var WEEKLY = [
-    { day: 5, time: '09:00', label: '9:00 AM', place: 'Fahaheel' },
-    { day: 5, time: '09:00', label: '9:00 AM', place: 'Bethel' },
+    { day: 5, time: '07:00', label: '7:00 AM', place: 'Bethel' },
+    { day: 5, time: '08:30', label: '8:30 AM', place: 'Fahaheel' },
     { day: 5, time: '12:30', label: '12:30 PM', place: 'The Fellowship Hall, NECK' },
     { day: 5, time: '15:30', label: '3:30 PM', place: 'The North Tent, NECK' },
     { day: 5, time: '17:15', label: '5:15 PM', place: 'Hall of Faith, NECK' },
@@ -37,10 +37,10 @@
       a: function () { return 'Hello and welcome! I can help with service times, locations, prayer requests and more. What would you like to know?'; },
       q: ['Service times', 'Where are you?', 'I’m new'] },
     { id: 'times', k: ['time', 'times', 'service', 'services', 'when', 'friday', 'monday', 'schedule', 'timing', 'mass', 'worship service', 'next'],
-      a: function () { return nextService() + '<br><br><b>Friday</b><br>9:00 AM · Fahaheel<br>9:00 AM · Bethel<br>12:30 PM · The Fellowship Hall, NECK<br>3:30 PM · The North Tent, NECK<br>4:00–5:15 PM · Sunday School (kids’ Bible class), NECK<br>5:15 PM · Hall of Faith, NECK<br><br><b>Monday</b><br>6:00 PM · KTMCC, NECK<br><br><b>Monthly</b><br>Holy Communion · 1st &amp; 3rd Friday, 3:30 PM, NECK<br>Healing service · 3rd Friday, 3:30 PM, NECK<br><br>All times are Kuwait time.'; },
+      a: function () { return nextService() + '<br><br><b>Friday</b><br>7:00 AM · Bethel<br>8:30 AM · Fahaheel<br>12:30 PM · The Fellowship Hall, NECK<br>3:30 PM · The North Tent, NECK<br>4:00–5:15 PM · Sunday School (kids’ Bible class), NECK<br>5:15 PM · Hall of Faith, NECK<br><br><b>Monday</b><br>6:00 PM · KTMCC, NECK<br><br><b>Monthly</b><br>Holy Communion · 1st &amp; 3rd Friday, 3:30 PM, NECK<br>Healing service · 3rd Friday, 3:30 PM, NECK<br><br>All times are Kuwait time.'; },
       q: ['Where are you?', 'Which language?', 'I’m new'] },
     { id: 'where', k: ['where', 'location', 'locations', 'address', 'direction', 'directions', 'map', 'neck', 'kuwait city', 'fahaheel', 'bethel', 'parking', 'how to reach', 'reach'],
-      a: function () { return 'We meet in three places:<br><br><b>Kuwait City</b>: the National Evangelical Church in Kuwait (NECK) compound. <a href="https://www.google.com/maps/search/?api=1&query=National+Evangelical+Church+in+Kuwait" target="_blank" rel="noopener">Open in Google Maps</a><br><b>Fahaheel</b>: Friday 9:00 AM. Message us for the address.<br><b>Bethel</b>: Friday 9:00 AM. Message us for the address.<br><br>See <a href="locations.html">all locations</a>.'; },
+      a: function () { return 'We meet in three places:<br><br><b>Kuwait City</b>: the National Evangelical Church in Kuwait (NECK) compound. <a href="https://www.google.com/maps/search/?api=1&query=National+Evangelical+Church+in+Kuwait" target="_blank" rel="noopener">Open in Google Maps</a><br><b>Bethel</b>: Friday 7:00 AM. Message us for the address.<br><b>Fahaheel</b>: Friday 8:30 AM. Message us for the address.<br><br>See <a href="locations.html">all locations</a>.'; },
       q: ['Service times', 'Ask for directions'] },
     { id: 'lang', k: ['language', 'languages', 'tamil', 'sinhala', 'english', 'translate', 'in tamil', 'in sinhala', 'in english', 'tamil service', 'sinhala service', 'தமிழ்', 'සිංහල'],
       a: function () { return 'GMI is a church where Tamils and Sinhalese worship together in harmony, and people of every nationality are welcome. Our services are in <b>Tamil, Sinhala and English</b>. Message us on WhatsApp and we’ll tell you which service suits you best.'; },
