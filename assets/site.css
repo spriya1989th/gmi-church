@@ -880,3 +880,5 @@ form .btn { padding: 11px 20px; }
 .promise-year { position: absolute; inset: auto 0 -0.18em; text-align: center; font-family: var(--font-display); font-weight: 600; font-size: clamp(5rem, 13vw, 9rem); line-height: 1; color: transparent; -webkit-text-stroke: 1px rgba(var(--sand-rgb, 214, 196, 160), .14); pointer-events: none; user-select: none; }
 .foot-promise { font-size: .85rem; color: var(--on-navy-muted); }
 .foot-promise b { color: var(--sand); font-weight: 600; }
+.sched-row .t small.lang { display: block; margin-top: 3px; font-size: .64rem; font-weight: 600; letter-spacing: .05em; color: var(--sand); white-space: nowrap; }
+.sched-row .t small.lang.en { color: var(--mint-soft); }
