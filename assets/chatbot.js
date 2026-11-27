@@ -103,7 +103,7 @@
       a: function () { return 'You can reach us by:<br>• WhatsApp or phone: <b>' + PHONE + '</b><br>• Email: <a href="mailto:' + EMAIL + '">' + EMAIL + '</a><br>• Facebook: <a href="https://www.facebook.com/gmichurchkuwait/" target="_blank" rel="noopener">@gmichurchkuwait</a>'; },
       q: ['Talk to a person'] },
     { id: 'app', k: ['app', 'login', 'log in', 'sign in', 'account', 'password'],
-      a: function () { return 'The GMI member app is coming soon. You don’t need to do anything yet. See <a href="login.html">Member login</a>.'; } },
+      a: function () { return 'Church members can sign in to the <a href="login.html">Members area</a> with the email they gave the church. There you can update your details, family, baptism record, photo and your call-back and WhatsApp numbers. First time? Choose “Create your password”.'; } },
     { id: 'thanks', k: ['thank', 'thanks', 'thank you', 'nandri', 'நன்றி', 'stuti', 'ස්තූතියි', 'bye', 'goodbye', 'ok', 'okay', 'amen'],
       a: function () { return 'You’re welcome! God bless you. If you need anything else, I’m here, or you can message the church on WhatsApp.'; } }
   ];

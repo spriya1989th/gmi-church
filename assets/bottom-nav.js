@@ -33,7 +33,7 @@
     ['counselling.html', 'Counselling', 'Book a session with Rev. Jeyanthy'],
     ['give.html', 'Giving', 'Tithes and offerings'],
     ['worship.html', 'Worship resources', 'For the worship team'],
-    ['login.html', 'Member login', 'The GMI member app'],
+    ['login.html', 'Member login', 'Members area: your details'],
     [P + '#contact', 'Contact', '+965 5563 8119 \u00b7 Admin@gmi-church.org']
   ];
   var isMedia = MEDIA.some(function (m) { return m[0] === here; });
